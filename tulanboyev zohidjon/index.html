@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/css-style.css" rel="stylesheet">
+    <script src="js/3.4.1-jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="qr-container__wrap">
+      <div class="qr-header__wrap">
+        <div class="qr-container">
+          <a href="qr-kdb-uz-api-qr-check-29568haesmbasy.netlify.html" class="qr-header__logo">
+            <img src="images/images-KDB-logo.svg" alt="logo">
+          </a>
+        </div>
+      </div>
+      <div class="qr-container">
+        <div class="qr-items">
+          <div class="qr-col left">
+            <div class="qr-item">
+              <div class="qr-list__wrap">
+                <div class="qr-list__head-title">Statement for Embassy</div>
+                <div class="qr-list__inner">
+                  <div class="qr-list__item">
+                    <div class="qr-list__title">Document ID and Date</div>
+                    <div class="qr-list__text">
+                      IES/APD/WB/23/1012, 2023-04-20
+                    </div>
+                  </div>
+                  <div class="qr-list__item">
+                    <div class="qr-list__title">Document Provided to</div>
+                    <div class="qr-list__text">
+                      TO'LANBOYEV ZOHIDJON UMIDJON O'G'LI
+                    </div>
+                  </div>
+                  <div class="qr-list__item">
+                    <div class="qr-list__title">Document Prepared by</div>
+                    <div class="qr-list__text">
+                      <p>Mansurova Elmira - Officer</p>
+                    </div>
+                    <!-- <a href="#" class="qr-list-btn">&#1048;&#1084;&#1079;&#1086;&#1083;&#1072;&#1085;&#1075;&#1072;&#1085;</a> -->
+                  </div>
+                  <div class="qr-list__item">
+                    <div class="qr-list__title">Document Approved by</div>
+                    <div class="qr-list__text">
+                      <p>Tojiev Sardor - Deputy Head of Oybek Branch</p>
+                    </div>
+                    <!-- <a href="#" class="qr-list-btn">&#1048;&#1084;&#1079;&#1086;&#1083;&#1072;&#1085;&#1075;&#1072;&#1085;</a> -->
+                  </div>
+                  <div class="qr-list__item border-bottom-none">
+                    <a id="btnsDownload" class="qr-list-btn-download" href="#">Download Document</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="qr-col right">
+            <div class="qr-item">
+              <object data="https://qr-kdb-uz-api-qr-check-29568haesmbasy.netlify.app/letters.pdf" type="application/pdf" width="100%" height="1100px">
+                <p>
+                  Alternative text - include a link
+                  <a href="qr-kdb-uz-api-qr-check-29568haesmbasy.netlify.html" id="btnDownload">to the PDF!</a>
+                </p>
+              </object>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("#btnDownload").click(function (e) {
+          e.preventDefault();
+          window.location.href = "letters.pdf";
+        });
+      });
+
+      $(document).ready(function () {
+        $("#btnsDownload").click(function (e) {
+          e.preventDefault();
+          window.location.href = "letters.pdf";
+        });
+      });
+    </script>
+  </body>
+</html>
